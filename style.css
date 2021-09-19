@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* (main background) */
+    --Very-dark-blue: hsl(233, 47%, 7%);
+    /* (card background) */
+    --Dark-desaturated-blue: hsl(244, 38%, 16%);
+    /* (accent) */
+    --Soft-violet: hsl(277, 64%, 61%);
+    /* (main heading, stats) */
+    --White: hsl(0, 0%, 100%);
+    /* (main paragraph) */
+    --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+    /* (stat headings) */
+    --Slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+    background-color: var(--Very-dark-blue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    height: 60vh;
+    width: 80vw;
+    background: var(--Dark-desaturated-blue);
+    /* border: 2px solid red; */
+    border-radius: 20px;
+}
+
+img {
+    height: 60vh;
+    width: 40vw;
+    float: right;
+}
+
+img:before {
+    content: "";
+    background: var(--Soft-violet);
+}
+
+.content-container {
+    background: var(--Dark-desaturated-blue);
+    height: 50vh;
+    width: 30vw;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    margin: 4rem 2rem 0rem 4rem;
+}
+
+.main-heading {
+    font-size: 2rem;
+}
+
+.insights {
+    color: var(--Soft-violet);
+}
+
+.para {
+    font-size: .81rem;
+    text-align: justify;
+    color: var(--Slightly-transparent-white);
+}
+
+.details {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.label {
+    text-transform: uppercase;
+    font-size: .65rem;
+    color: var(--Slightly-transparent-white);
+}
+
+.numbers {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.no-of-companies {}
+
+.companies {
+    position: relative;
+    top: 2.7rem;
+    right: 3.6rem;
+}
+
+.no-of-templates {}
+
+.templates {
+    position: relative;
+    top: 2.7rem;
+    right: 2.8rem;
+}
+
+.no-of-queries {}
+
+.queries {
+    position: relative;
+    top: 2.7rem;
+    right: 3.9rem;
+}
