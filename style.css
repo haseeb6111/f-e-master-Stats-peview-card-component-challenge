@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 :root {
@@ -84,23 +85,17 @@ img:before {
     font-weight: bold;
 }
 
-.no-of-companies {}
-
 .companies {
     position: relative;
     top: 2.7rem;
     right: 3.6rem;
 }
 
-.no-of-templates {}
-
 .templates {
     position: relative;
     top: 2.7rem;
     right: 2.8rem;
 }
-
-.no-of-queries {}
 
 .queries {
     position: relative;
