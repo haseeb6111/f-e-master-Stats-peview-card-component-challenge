@@ -39,11 +39,7 @@ img {
     height: 60vh;
     width: 40vw;
     float: right;
-}
-
-img:before {
-    content: "";
-    background: var(--Soft-violet);
+    filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(180deg);
 }
 
 .content-container {
